@@ -11,7 +11,7 @@ on:
 
 jobs:
   build-visuals:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
 
@@ -36,14 +36,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2. Generate 3D Contribution Graph (Including All Private Repos!)
+      # 2. Generate 3D Contribution Graph (Private + Org Commits)
       - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           USERNAME: ahmedalabd122
 
-      # 3. Generate Summary Cards (Including All Private Commits, PRs & Languages!)
+      # 3. Generate All 5 Private + Org Summary Cards Locally
       - name: Generate Private-Aware Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
