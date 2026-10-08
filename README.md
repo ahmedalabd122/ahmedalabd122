@@ -100,13 +100,22 @@
 
 ### 📊 Live Activity & Telemetry
 
+<!-- Row 1: Private-Aware Total Stats & Streak -->
 <div align="center">
-  <img height="175em" src="https://github-stats-extended.vercel.app/api?username=ahmedalabd122&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-  <img height="175em" src="https://streak-stats.demolab.com?user=ahmedalabd122&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  <img height="180em" src="https://raw.githubusercontent.com/ahmedalabd122/ahmedalabd122/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="Total Stats" />
+  <img height="180em" src="https://streak-stats.demolab.com?user=ahmedalabd122&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
 </div>
 
+<!-- Row 2: Languages by Commit & Languages by Repo (Generated from your Token) -->
 <div align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmedalabd122&theme=tokyonight" alt="Activity Graph" />
+  <img height="180em" src="https://raw.githubusercontent.com/ahmedalabd122/ahmedalabd122/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages by Commit" />
+  <img height="180em" src="https://raw.githubusercontent.com/ahmedalabd122/ahmedalabd122/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top Languages by Repo" />
+  <img height="180em" src="https://raw.githubusercontent.com/ahmedalabd122/ahmedalabd122/main/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" />
+</div>
+
+<!-- Row 3: Full Year Contribution & Activity Graph -->
+<div align="center">
+  <img width="98%" src="https://raw.githubusercontent.com/ahmedalabd122/ahmedalabd122/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Activity Graph" />
 </div>
 
 ---
